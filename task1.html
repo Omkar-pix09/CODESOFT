@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omkar Patil - Online Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-weight: 700;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #hero {
+            background: linear-gradient(to right, #007bff, #00c6ff);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        #hero h2 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        #hero p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        button {
+            background-color: #fff;
+            color: #007bff;
+            padding: 12px 25px;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #e0e0e0;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        #about img {
+            max-width: 160px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        #skills li {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .project img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .project h3 {
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Omkar Patil</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Works</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Omkar Patil</h2>
+        <p>I’m a Professional Developer with an B.tech  degree and i am fresher as an experience in the IT sector as an i am engineering student.</p>
+        <button>Hire Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="c:\Users\omkar\Downloads\profile.jpg.jpg" alt="Omkar Patil">
+        <p>I blend technical expertise with industry experience to deliver innovative digital solutions.</p>
+        <p>My work spans software design, development, testing, and deployment—from websites and mobile apps to scalable enterprise solutions.</p>
+        <button>Download Resume</button>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Principles</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project Screenshot">
+            <h3>Portfolio Website</h3>
+            <p>A modern and responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download><button>Download Resume</button></a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: op8686627@gmail.com</p>
+        <p>Phone: +91 8668681672</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Omkar Patil. All rights reserved.</p>
+    </footer>
+</body>
+</html>
